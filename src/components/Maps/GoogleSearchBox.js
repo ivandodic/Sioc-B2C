@@ -10,7 +10,7 @@ import StandaloneSearchBox from 'react-google-maps/lib/components/places/Standal
 const PlacesWithStandaloneSearchBox = compose(
     withProps({
         // eslint-disable-next-line max-len
-        googleMapURL: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBPcjKZsJ6A7MtY_Y3aowX6K7tJQRBuU9s&language=es&v=3.exp&libraries=geometry,drawing,places',
+        googleMapURL: 'https://maps.googleapis.com/maps/api/js?key=&language=es&v=3.exp&libraries=geometry,drawing,places',
         loadingElement: <div style={{height: '100%'}}/>,
         containerElement: <div style={{height: '400px'}}/>
     }),
